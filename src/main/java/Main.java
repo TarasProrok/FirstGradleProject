@@ -2,8 +2,6 @@ import com.google.gson.Gson;
 
 public class Main {
     public static void main(String[] args) {
-        String name = "John";
-        String lastName = "Doe";
 
         Person person = new Person("Taras", "Prorok");
         Gson gson = new Gson();
